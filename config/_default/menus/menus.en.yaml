@@ -3132,6 +3132,50 @@ api_v2:
     url: /api/v2/ip-ranges/
     identifier: IP Ranges
     generated: true
+  - name: Incident IntegrationMetadata
+    url: /api/v2/incident-integrationmetadata/
+    identifier: Incident IntegrationMetadata
+    generated: true
+  - name: Incident Postmortem
+    url: /api/v2/incident-postmortem/
+    identifier: Incident Postmortem
+    generated: true
+  - name: Incident TimelineCell
+    url: /api/v2/incident-timelinecell/
+    identifier: Incident TimelineCell
+    generated: true
+  - name: Incident UserDefinedField
+    url: /api/v2/incident-userdefinedfield/
+    identifier: Incident UserDefinedField
+    generated: true
+  - name: Incident UserDefinedFieldSelection
+    url: /api/v2/incident-userdefinedfieldselection/
+    identifier: Incident UserDefinedFieldSelection
+    generated: true
+  - name: Incidents
+    url: /api/v2/incidents/
+    identifier: Incidents
+    generated: true
+  - name: Get a list of incidents
+    parent: Incidents
+    url: '#get-a-list-of-incidents'
+    generated: true
+  - name: Create an incident
+    parent: Incidents
+    url: '#create-an-incident'
+    generated: true
+  - name: Delete an existing incident
+    parent: Incidents
+    url: '#delete-an-existing-incident'
+    generated: true
+  - name: Get the details of an incident
+    parent: Incidents
+    url: '#get-the-details-of-an-incident'
+    generated: true
+  - name: Update an existing incident
+    parent: Incidents
+    url: '#update-an-existing-incident'
+    generated: true
   - name: Key Management
     url: /api/v2/key-management/
     identifier: Key Management

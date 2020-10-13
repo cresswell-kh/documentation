@@ -47,6 +47,30 @@
     "name": "IP Ranges",
     "description": "[See API version 1](/api/v1/ip-ranges/)."
   },
+  "incident-integrationmetadata": {
+    "name": "Incident IntegrationMetadata",
+    "description": "Manage integration metadata about your incidents."
+  },
+  "incident-postmortem": {
+    "name": "Incident Postmortem",
+    "description": "Manage postmortem information related to your incidents."
+  },
+  "incident-timelinecell": {
+    "name": "Incident TimelineCell",
+    "description": "Manage the content of your incident timelines."
+  },
+  "incident-userdefinedfield": {
+    "name": "Incident UserDefinedField",
+    "description": "Manage the user-defined fields that are attached to your incidents."
+  },
+  "incident-userdefinedfieldselection": {
+    "name": "Incident UserDefinedFieldSelection",
+    "description": "Manage selected values for your user-defined fields attached to incidents."
+  },
+  "incidents": {
+    "name": "Incidents",
+    "description": "Manage incident response."
+  },
   "key-management": {
     "name": "Key Management",
     "description": "[See API version 1](/api/v1/key-management/)."
