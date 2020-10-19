@@ -905,27 +905,27 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@datadog/browser-core@1.18.1":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-1.18.1.tgz#e8a0a323e9235c362585cf1865726c79b05b767d"
-  integrity sha512-+PGk7g8vIW3jpZ3YdKxlunfL0uqwjMqP+bJldpPp0zR4aZQcYGP4Nrx8+CFQJH3xzP1J2CsFDYSTO9osnUM4BA==
+"@datadog/browser-core@1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-1.24.0.tgz#c133479192eb325e342589ec1e93a4d050399f5d"
+  integrity sha512-r4529Iwhpv4GUko5KHwVwHERPpIAC3MILEBjXdhgnaOff0maJTdIWUO36kMTW15Ooi3ReTGHQBBKJP2CeLwKhA==
   dependencies:
     tslib "^1.10.0"
 
-"@datadog/browser-logs@^1.12.4":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-logs/-/browser-logs-1.18.1.tgz#6737f2523e5e0fdaa4dcd936c7698f3f51583a1d"
-  integrity sha512-ZQrP4kgF3sDUXa4WUu7I2J7p1FS8454SqJA21+CfhXooAGoYqgVKrOtFtM9zCIuNGybBJQISPiEVRHHn8x+EbA==
+"@datadog/browser-logs@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-logs/-/browser-logs-1.24.0.tgz#eda28ef2e7270cc235fd7ebaf055e27637668960"
+  integrity sha512-f8Oz85qkN5Jkk/LwO7FH4+jWqL6cgmTENGxGHbNTwaofvJJYk8M2DtTr/RtmrhTFplRNV/XGnVQqe2q0foYjLg==
   dependencies:
-    "@datadog/browser-core" "1.18.1"
+    "@datadog/browser-core" "1.24.0"
     tslib "^1.10.0"
 
-"@datadog/browser-rum@^1.12.6":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-1.18.1.tgz#749f22e4f5d14da1a35e40eea90377d580ee0a79"
-  integrity sha512-jMwSSy7iiGzeJZ8AllW+eFHXFj0a3UdF91xuiJZlecDglHzwV78fAd2knDrbBTLR97qF3bH8ZkKVfc/wAWsLuw==
+"@datadog/browser-rum@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-1.24.0.tgz#50a39c083fd984284777a4b39b8dab723c4f5668"
+  integrity sha512-Y25G34JPXbFssND9NizAsKdo+h/BkL12jKP6zxO2ncTL1pShEcGlbao2Pjeb5kHcshiZPe+y746Ykv7G71zMYw==
   dependencies:
-    "@datadog/browser-core" "1.18.1"
+    "@datadog/browser-core" "1.24.0"
     tslib "^1.10.0"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
