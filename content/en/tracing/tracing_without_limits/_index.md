@@ -144,21 +144,28 @@ In the Datadog app, on the ['Data Ingestion' view][4], you can see the following
 
 ##### Ingestion Breakdown
 
-The ingestion breakdown allows you understand where your traces are going and helps you to troubleshoot unexpected ingestion rates or missing traces.
+The ingestion breakdown collumn breaks down the destination of all traces orginating from the service. It can help you explain lower than expected ingestion rates and missing traces.
+
+The breakdown is composed of the following parts:
 
 **Complete traces ingested (Green)**:
-Shows how many of the traces that are produced by the service are being ingested by Datadog.
+
+Shows you the effective percentage of traces produced by the service that are being ingested by Datadog.
 
 **Complete traces not retained by the default ingestion algorithm (Grey)**:
-By default the agent and the tracers intelligently decide which traces should be retained and forwarded to datadog's intake. See [Change the Default Ingestion Rate](#change-the-default-ingestion-rate) if you wish to configure this behavior.
+
+By default the agent and the tracers intelligently decide which traces should be retained and forwarded to Datadog's intake. See [Change the Default Ingestion Rate](#change-the-default-ingestion-rate) if you wish to configure this behavior.
 
 **Complete traces not retained by the configured ingestion rate (Grey)**:
-After you [configured the ingestion rate](#change-the-default-ingestion-rate) this will show you the percentage of traces ingested by Datadog based on your configuration.
+
+If you decide to [configure the ingestion rate](#change-the-default-ingestion-rate) of a service to less than 100% this part of the breakdown will show you the percentage of traces kept by the tracer based on that configuration.
 
 **Complete traces dropped by the tracer rate limiter (Orange)**:
-By default, when the tracer has a [configured the ingestion rate](#change-the-default-ingestion-rate), the number of traces forwarded to the agent and Datadog is limited to 50 traces per second. Refer to your tracer configuration to configure this rate limiter.
+
+By default, when the tracer has a [configured the ingestion rate](#change-the-default-ingestion-rate), the number of traces forwarded to the agent and Datadog is limited to 50 traces per second. Refer to your tracer configuration if you wish to configure this rate limiter.
 
 **Traces dropped due to the agent CPU limit (Red)**:
+
 The agent has a configuration option allowing users to limit the usage of the CPU. After this limit is reached the agent will stop accepting traces from the tracers. Refer to the agent configuration to [configure how much CPU](https://github.com/DataDog/datadog-agent/blob/master/pkg/config/config_template.yaml#L736-L741) you wish to allocate to the agent.
 
 
