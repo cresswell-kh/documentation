@@ -33,7 +33,7 @@ markup:
     guessSyntax: true
 
 # so we can access images as resources
-assetDir: "static"
+# assetDir: "static"
 
 module:
   mounts:
@@ -53,7 +53,7 @@ module:
       target: layouts
     - source: data
       target: data
-    - source: assets
+    - source: static
       target: assets
     - source: i18n
       target: i18n
