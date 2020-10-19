@@ -154,7 +154,7 @@ window.addEventListener('load', function() {
 function tocEditBtnHandler(event) {
     if (event.target.tagName === 'A') {
         // if element is anchor tag
-        datadogLogs.logger.log(
+        window.DD_LOGS.logger.log(
             'Edit btn clicked',
             {
                 edit_btn: {
