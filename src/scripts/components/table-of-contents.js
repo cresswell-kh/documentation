@@ -1,5 +1,3 @@
-import datadogLogs from './dd-browser-logs-rum';
-
 let sidenavMapping = [];
 // let apiNavMapping = [];
 
@@ -28,7 +26,7 @@ export function updateTOC() {
             closeMobileTOC();
         }
         if (href.substr(0, 1) === '#') {
-            datadogLogs.logger.log(
+            window.DD_LOGS.logger.log(
                 'Toc used',
                 {
                     toc: {
