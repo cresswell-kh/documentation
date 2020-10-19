@@ -149,10 +149,10 @@ The ingestion breakdown allows you understand where your traces are going and he
 **Complete traces ingested (Green)**:
 Shows how many of the traces that are produced by the service are being ingested by Datadog.
 
-**Complete traces not retained by the default ingestion algorithm (Gray)**:
+**Complete traces not retained by the default ingestion algorithm (Grey)**:
 By default the agent and the tracers intelligently decide which traces should be retained and forwarded to datadog's intake. See [Change the Default Ingestion Rate](#change-the-default-ingestion-rate) if you wish to configure this behavior.
 
-**Complete traces not retained by the configured ingestion rate (Gray)**:
+**Complete traces not retained by the configured ingestion rate (Grey)**:
 After you [configured the ingestion rate](#change-the-default-ingestion-rate) this will show you the percentage of traces ingested by Datadog based on your configuration.
 
 **Complete traces dropped by the tracer rate limiter (Orange)**:
